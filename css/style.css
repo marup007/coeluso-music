@@ -1,0 +1,301 @@
+body{
+	font-family: 'Ubuntu', sans-serif;
+
+}
+h1{
+
+	color: white;
+	font-weight: bold;
+	font-size: 30px;
+}
+h4{
+	color: white;
+	font-weight: bold;
+	font-size: 22px;
+
+}
+h2{
+
+	color: white;
+	font-weight: bold;
+	font-size: 30px;
+}
+p{
+
+	font-size:14px ;
+	color:#2a5da3;
+
+}
+/*theme css*/
+header{
+
+	background-color: #0a2345;
+	padding: 10px 0px;
+	
+}
+
+.navbar {
+    color: #fff !important;
+    background-color: #0a2345 !important;
+}
+
+.navbar-toggler {
+    background-color: transparent;
+    padding: 10px !important;
+}
+
+.fa.fa-bars {
+    font-size: 25px;
+    color: #2a5ea4;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(255, 221, 221, 0.5);
+}
+/*Header part end*/
+/*Hero section start*/
+.hero{
+
+	background-color:  #0a2345;
+	padding:80px 0px;
+	text-align: center;
+
+}
+.header-one{
+
+	padding-top: 100px;
+
+}
+.btn1{
+	background:transparent;
+	border-radius: 30px;
+    border: 1px solid #2A5DA3;
+    color: white;
+    padding: 10px 45px;
+}
+.btn1:hover {
+    background-color: #2F7FEF;
+    color: white;
+    -webkit-transition: : 0.5s ease;
+    -moz-transition: 0.5s ease;
+    -o-transition: 0.5s ease;
+    transition: 0.5s ease;
+}
+
+/*Hero section end*/
+
+.phone{
+
+	background:url(../img/bg.png)no-repeat top center;
+	background-size: cover;
+	padding: 10px 0px; 
+}
+
+.hphn{
+
+	background-color: #0a2345;
+}
+.htext p{
+
+	padding-right: 60px;
+
+}
+.htext h1{
+
+	padding-top: 100px !important;
+}
+
+.feature{
+
+	background-color:#0a2345;
+	padding: 20px 0px;
+}
+.fet{
+
+	margin-top:160px; 
+}
+
+.feat{
+
+	text-align: center;
+	padding-top: 30px;
+}
+
+.power{
+    padding: 110px 0px;
+	background-color:#07162c ;
+}
+.prt{
+
+  	margin-top: 150px;
+}
+
+.info{
+
+	background:url(../img/bg2.png)no-repeat top center;
+	background-size:cover;
+	padding: 50px;
+	text-align: center;
+}
+.int{
+
+	font-size: 18px;
+}
+
+.fot{
+
+	background-color:#030913;
+	padding: 100px 0px;
+	text-align: center;
+}
+
+.download-btn {
+    border-radius: 30px;
+    border: 1px solid #2A5DA3;
+    color: white;
+    padding: 10px 45px;
+}
+
+.download-btn:hover {
+    background-color: #2F7FEF;
+    color: white;
+    -webkit-transition: : 0.5s ease;
+    -moz-transition: 0.5s ease;
+    -o-transition: 0.5s ease;
+    transition: 0.5s ease;
+}
+
+footer{
+
+	padding:20px 0px;
+}
+
+.er{
+
+	text-align: right;
+}
+.menu ul{
+
+	list-style: none;
+}
+.menu ul li{
+	display: inline-block;
+	color:#2a5da3;
+	margin: 5px 10px;
+}
+.menu ul li:hover{
+	color:white;
+}
+
+
+
+@media(min-width: 320px) and (max-width: 500px){
+p{
+	font-size: 10px;
+}
+h4{
+
+	font-size: 12px;
+}
+h1{
+
+	font-size: 20px;
+}
+.hero{
+
+	background-color:  #0a2345;
+	padding:15px 0px;
+	text-align: center;
+
+}
+.header-til{
+
+	padding-top: 50px;
+
+}
+.htext h1{
+
+	padding-top: 40px !important;
+}
+.power{
+     padding: 20px 0px;
+	background-color:#07162c ;
+}
+.feature{
+
+	background-color:#0a2345;
+	padding: 20px 0px;
+}
+.fet{
+
+	margin-top: 10px; 
+	padding: 20px 10px;
+}
+.fet h4{
+
+	font-size: 10px;
+}
+.image-f{
+	height: 100%;
+	width: 100%;
+	display: block;
+
+}
+.img{
+
+	height: 12%;
+	width: 20%;
+
+}
+.ftp{
+
+	text-align: center;
+	padding-top: 20px;
+}
+
+.menu ul li{
+	display: inline-block;
+	color:#2a5da3;
+	margin: 3px 1px;
+	font-size: 10px;
+}
+
+.fot{
+
+	background-color:#030913;
+	padding: 50px auto;
+	text-align: center;
+}
+
+.prt{
+
+	margin-top: 20px;
+}
+
+
+.img1{
+
+	padding-top: 30px;
+}
+
+/*power section end*/
+
+.int{
+
+	font-size: 18px;
+}
+
+
+@media(min-width: 500.01px) and (max-width: 768){
+
+
+
+}
+@media(min-width:768.01px) and (max-width: 1200px){
+
+
+}
+
+@media(min-width: 1200.01px){
+
+
+}
